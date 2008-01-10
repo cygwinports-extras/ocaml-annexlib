@@ -1,0 +1,105 @@
+ocaml-annexlib
+------------------------------------------
+Annexlib contains useful routines for Objective Caml that aren't in the 
+standard library (Especially string searching and manipulation), and 
+some other odds and ends that are useful at times. Highlights include 
+wildcard globbing, lots of string searching and manipulation routines, 
+locale support, ~user-style path expansion, and more.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  ocaml-3.10.0-1
+  ocaml-pcre-5.12.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ocaml-findlib-1.2.1-1
+
+Canonical website:
+  http://raevnos.pennmush.org/code/annexlib/
+
+Canonical download:
+  http://raevnos.pennmush.org/code/annexlib/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-annexlib-0.13.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-annexlib-0.13.2-X.cygport all
+
+This will create:
+  /usr/src/ocaml-annexlib-0.13.2-X-src.tar.bz2
+  /usr/src/ocaml-annexlib-0.13.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/annexlib/META
+  /usr/lib/ocaml/3.10/annexlib/annexlib.a
+  /usr/lib/ocaml/3.10/annexlib/annexlib.cma
+  /usr/lib/ocaml/3.10/annexlib/annexlib.cmxa
+  /usr/lib/ocaml/3.10/annexlib/arrayExtras.cmi
+  /usr/lib/ocaml/3.10/annexlib/arrayExtras.cmx
+  /usr/lib/ocaml/3.10/annexlib/arrayExtras.mli
+  /usr/lib/ocaml/3.10/annexlib/charExtras.cmi
+  /usr/lib/ocaml/3.10/annexlib/charExtras.cmx
+  /usr/lib/ocaml/3.10/annexlib/charExtras.mli
+  /usr/lib/ocaml/3.10/annexlib/find.cmi
+  /usr/lib/ocaml/3.10/annexlib/find.cmx
+  /usr/lib/ocaml/3.10/annexlib/find.mli
+  /usr/lib/ocaml/3.10/annexlib/glob.cmi
+  /usr/lib/ocaml/3.10/annexlib/glob.cmx
+  /usr/lib/ocaml/3.10/annexlib/glob.mli
+  /usr/lib/ocaml/3.10/annexlib/iOExtras.cmi
+  /usr/lib/ocaml/3.10/annexlib/iOExtras.cmx
+  /usr/lib/ocaml/3.10/annexlib/iOExtras.mli
+  /usr/lib/ocaml/3.10/annexlib/libannexlib_stubs.a
+  /usr/lib/ocaml/3.10/annexlib/listExtras.cmi
+  /usr/lib/ocaml/3.10/annexlib/listExtras.cmx
+  /usr/lib/ocaml/3.10/annexlib/listExtras.mli
+  /usr/lib/ocaml/3.10/annexlib/locale.cmi
+  /usr/lib/ocaml/3.10/annexlib/locale.cmx
+  /usr/lib/ocaml/3.10/annexlib/locale.mli
+  /usr/lib/ocaml/3.10/annexlib/option.cmi
+  /usr/lib/ocaml/3.10/annexlib/option.cmx
+  /usr/lib/ocaml/3.10/annexlib/option.mli
+  /usr/lib/ocaml/3.10/annexlib/strExtras.cmi
+  /usr/lib/ocaml/3.10/annexlib/strExtras.cmx
+  /usr/lib/ocaml/3.10/annexlib/strExtras.mli
+  /usr/lib/ocaml/3.10/annexlib/syslog.cmi
+  /usr/lib/ocaml/3.10/annexlib/syslog.cmx
+  /usr/lib/ocaml/3.10/annexlib/syslog.mli
+  /usr/lib/ocaml/3.10/annexlib/time.cmi
+  /usr/lib/ocaml/3.10/annexlib/time.cmx
+  /usr/lib/ocaml/3.10/annexlib/time.mli
+  /usr/lib/ocaml/3.10/annexlib/unixExtras.cmi
+  /usr/lib/ocaml/3.10/annexlib/unixExtras.cmx
+  /usr/lib/ocaml/3.10/annexlib/unixExtras.mli
+  /usr/lib/ocaml/3.10/annexlib/variant.cmi
+  /usr/lib/ocaml/3.10/annexlib/variant.cmx
+  /usr/lib/ocaml/3.10/annexlib/variant.mli
+  /usr/lib/ocaml/3.10/stublibs/dllannexlib_stubs.so
+  /usr/lib/ocaml/3.10/stublibs/dllannexlib_stubs.so.owner
+  /usr/share/doc/ocaml-annexlib-0.13.2/Changes
+  /usr/share/doc/ocaml-annexlib-0.13.2/LICENSE
+  /usr/share/doc/ocaml-annexlib-0.13.2/README
+
+------------------
+
+Port Notes:
+
+----- version 0.13.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
