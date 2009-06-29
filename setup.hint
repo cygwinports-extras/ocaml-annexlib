@@ -1,5 +1,5 @@
 category: OCaml
-requires: cygwin ocaml ocaml-pcre
+requires: ocaml ocaml-pcre
 sdesc: "OCaml string searching and manipulation routines"
 ldesc: "Annexlib contains useful routines for Objective Caml that aren't 
 in the standard library (Especially string searching and manipulation), 
